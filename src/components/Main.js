@@ -13,7 +13,7 @@ const defaultProps = {};
 const Main = () => {
   const links = [
     {
-      link: 'https://github.com/ratushnyak-k/invoice-test-app',
+      link: 'https://github.com/ratushnyak-k/weather-test-app',
       text: 'Link to github',
     },
   ]
@@ -37,7 +37,7 @@ const Main = () => {
             return <ListItem
               key={item.link}
             >
-              <a href={item.link}>{item.text}</a>
+              <a target="_blank" href={item.link}>{item.text}</a>
             </ListItem>
           })
         }
